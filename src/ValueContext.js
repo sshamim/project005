@@ -1,4 +1,4 @@
-import React,{ Context } from 'react';
+import React from 'react';
 
 // Creating a Context Provider to provide the value to Consumer(s) and
 // specifying a default value of 100
