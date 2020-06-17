@@ -4,8 +4,10 @@ import ValueContext from './ValueContext';
 
 function Child() {
     let count = useContext(ValueContext)
-      let updateValue = count[1]
-        return (
+    
+    let updateValue = count[1]
+        
+      return (
           <div >
             Child number: {count[0]}
             <br />
