@@ -4,6 +4,8 @@ const numberReducer = (state, action) => {
         return state + action.step
       case 'DECREMENT':
         return state - action.step
+    default:
+      throw new Error()
     }
   }
 
