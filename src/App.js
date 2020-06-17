@@ -10,7 +10,8 @@ function App() {
     // number[0] = some value
     // number[1] = some function
 
-    let number = useState(1)
+    let number = useState(10)
+    
         
       return (
 
@@ -21,7 +22,7 @@ function App() {
                 Hello World
                 <Parent></Parent>
               </div>
-              
+
           </ValueContext.Provider>
       );  
 }
