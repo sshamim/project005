@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 import Parent from './Parent';
+import ValueContext from './ValueContext';
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 function App(props) {
 
@@ -27,13 +29,25 @@ function App() {
     return (
         // Adding a Wrapper
         <ValueContext.Provider value={number}>
+=======
+function App() {
+    // Providing a value to be passed on to Provide as initial value
+    let value = 1;
+       
+    return (
+        // Adding a Wrapper
+        <ValueContext.Provider value={value}>
+>>>>>>> ffbce41bde5d76aa2a2960407896e35f7dd9a2f2
             <div>
               Hello World
               <Parent></Parent>
             </div>
         </ValueContext.Provider>
     );  
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> ffbce41bde5d76aa2a2960407896e35f7dd9a2f2
 }
 
 export default App;
