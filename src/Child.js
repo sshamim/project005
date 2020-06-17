@@ -9,9 +9,10 @@ function Child() {
         
       return (
           <div >
-            Child number: {count[0]}
+            Child 1 Age: {count[0]}
             <br />
             <button onClick={()=>{updateValue (++count[0])}}>Increase</button>
+            <button onClick={()=>{updateValue (--count[0])}}>Decrease</button>
           </div>
         );
   }
